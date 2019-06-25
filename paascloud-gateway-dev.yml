@@ -101,8 +101,8 @@ security:
     resource:
       user-info-uri: http://paascloud-gateway:7979/uac/user
       prefer-token-info: false
-#      jwt:
- #       key-uri: http://paascloud-provider-uac:8000/oauth/token_key
+      jwt:
+        key-uri: http://paascloud-provider-uac:8000/oauth/token_key
 
 proxy:
   auth:
